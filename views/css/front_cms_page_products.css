@@ -1,0 +1,239 @@
+.page-cms .loader-wrapper {
+    display: none !important;
+}
+
+/* ======================== SETTINGS ======================== */
+#cmspage_products {
+    --primary-color: #012d5a;
+    --accent-color: #ff3c17;
+    --lite-color: #e5f0fe;
+    --select-color: #2b84c2;
+    --gray-color: #e5e5e5;
+    --white-color: #ffffff;
+
+    --transition: 0.25s all ease-in;
+}
+#cmspage_products ul,
+#cmspage_products ol,
+#cmspage_products dl,
+#cmspage_products dt,
+#cmspage_products dd {
+    margin: 0;
+    padding: 0;
+}
+#cmspage_products ul,
+#cmspage_products ol {
+    list-style: none;
+}
+#cmspage_products a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+#cmspage_products a:hover {
+    color: var(--accent-color);
+}
+/* ======================== CMS PAGE ======================== */
+#cmspage_products h4 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+#cmspage_products ul {
+    margin: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#cmspage_products ul li a {
+    display: block;
+    padding: 0.5rem 1em;
+    color: var(--primary-color);
+    background: var(--white-color);
+    border: 1px solid var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+#cmspage_products ul li a:hover,
+#cmspage_products ul li.current a {
+    color: var(--white-color);
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+#cmspage_products ul li.root a {
+    background: var(--lite-color);
+    border: 1px solid var(--lite-color);
+}
+#cmspage_products ul li.root.current a,
+#cmspage_products ul li.root a:hover {
+    background: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+/* ==================== PRODUCTS GRID/CATALOG ========================== */
+.cmsPageProducts .grid,
+.cmsPageProducts .catalog  {
+    margin: 15px 0;
+}
+.cmsPageProducts article {
+    padding: 1em;
+    border: 1px solid var(--gray-color);
+}
+ 
+/* Stylowanie klasy product-container */
+.cmsPageProducts .product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+  
+  /* Product IMG */
+.cmsPageProducts .thumbnail {
+    width: 30%;
+}
+.cmsPageProducts .thumbnail img {
+    width: 100%;
+    height: auto;
+}
+  
+.cmsPageProducts .product {
+    width: 65%; /* Reszta miejsca dla pozostałej zawartości */
+}
+
+.cmsPageProducts .product h5 { 
+    padding-bottom: .5em;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--gray-color);
+}
+#cmspage_products dl {
+    padding: .5em;
+    padding-right: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+#cmspage_products dl.export {
+    color: var(--select-color);
+    border: 1px solid var(--gray-color);
+    border-left: none;
+    border-right: none;
+}
+#cmspage_products dl:hover {
+    background: var(--lite-color);
+}
+
+#cmspage_products dt li {
+    line-height: 1.2;
+}
+#cmspage_products dt li small {
+    font-size: .8em; 
+}
+#cmspage_products dl dd a,
+#cmspage_products dl dd.export a,
+#cmspage_products dl dd.create a {
+    padding: 0.5rem;
+    font-size: .85rem;
+    font-weight: 500;
+    transition: var(--transition);
+    text-decoration: none;
+}
+#cmspage_products dl dt {
+    font-weight: 400;
+}
+#cmspage_products dl.export dt {
+    font-weight: 600;
+}
+#cmspage_products dl dd a {
+    color: var(--primary-color);
+    background: var(--lite-color);
+    border: 1px solid var(--lite-color);
+}
+#cmspage_products dl dd.export a {
+    color: var(--white-color);
+    background: var(--select-color);
+    border: 1px solid var(--select-color);
+}
+#cmspage_products dl dd.create a {
+    color: var(--white-color);
+    background: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+#cmspage_products dl:hover dd a {
+    color: var(--white-color);
+    background: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    transition: var(--transition);
+}
+#cmspage_products dl:hover dd a:hover {
+    color: var(--white-color);
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+/* ==================== PRODUCTS GRID ============================== */
+.cmsPageProducts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-xs-12 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-container {
+    flex: 1;
+  }
+
+/* ========================== PAGINATION ====================== */
+#cmspage_products .product_pagination li a {
+    padding: .25rem .75rem;
+    font-size: .75rem;
+    background: var(--lite-color);
+    border: 1px solid var(--lite-color);
+}
+#cmspage_products .product_pagination li a:hover,
+#cmspage_products .product_pagination li.current a {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+
+/* ======================== DOWLOAD ZIP ===================== */
+.cmsPageProducts .title {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.cmsPageProducts .title .zipper {
+    display: block;
+    padding: 0.25em;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+.cmsPageProducts .title .zipper:hover {
+    background: #ffffff;
+    border: 1px solid var(--lite-color);
+}
+
+.cmsPageProducts .title .zipper svg{
+    display: block;
+}
+.cmsPageProducts .title .zipper:hover svg{
+    stroke: var(--primary-color);
+}

@@ -1,0 +1,157 @@
+{
+    "hooksProductPage": [
+        { "value": "displayProductExtraContent",
+          "name": {
+                "en" : "Product Tab block [Description, Technical data, Attachments] => PS > 1.7.0",
+                "pl" : "Blok zakładek produktu [Opis, Dane techniczne, Załączniki] => PS > 1.7.0"}
+        },
+        { "value": "displayProductActions",
+          "name": {
+                "en" : "Button Block [Add to Cart, Buy Now] => PS > 1.7.6",
+                "pl" : "Blok przycisków [Dodaj do koszyka, Kup teraz] => PS > 1.7.6"}
+        },
+        { "value": "displayAfterProductThumbs",
+          "name": {
+                "en" : "Block below main product image [Cover, Thumbs] => PS > 1.7.1",
+                "pl" : "Blok poniżej zdjęcia głównego produktu [Okładka, Thumbs] = PS > 1.7.1"}
+        },
+        { "value": "displayProductAdditionalInfo",
+          "name": {
+                "en" : "Block of additional product information (and QuickView) => PS > 1.7.1",
+                "pl" : "Blok dodatkowych informacji o produkcie (oraz QuickView) => PS > 1.7.1"}
+        },
+        { "value": "displayFooterProduct",
+          "name": {
+                "en" : "Block with information in the footer of the product",
+                "pl" : "Blok z informacją w stopce produktu"}
+        }
+    ],
+    "attachmentFormats": [
+      { 
+          "value": "pdf",
+          "name": { 
+              "en": "PDF - Document",
+              "pl": "PDF - Dokument"
+          },
+          "allowedExtensions": ["pdf"],
+          "maxFileSize": 5242880
+      },
+      { 
+          "value": "doc",
+          "name": { 
+              "en": "Word - Document",
+              "pl": "Word - Dokument"
+          },
+          "allowedExtensions": ["docx", "doc", "odt"],
+          "maxFileSize": 5242880
+      },
+      { 
+          "value": "xls",
+          "name": { 
+              "en": "Excel - Spreadsheets",
+              "pl": "Excel - Arkusz kalkulacyjny"
+          },
+          "allowedExtensions": ["xlsx", "xls", "ods"],
+          "maxFileSize": 10485760
+      },
+      { 
+          "value": "ppt",
+          "name": { 
+              "en": "PowerPoint - Presentation",
+              "pl": "PowerPoint - Prezentacja"
+          },
+          "allowedExtensions": ["pptx", "ppt", "odp"],
+          "maxFileSize": 10485760
+      },
+      { 
+          "value": "zip",
+          "name": { 
+              "en": "ZIP (archive format)",
+              "pl": "ZIP (kompresja plików)"
+          },
+          "allowedExtensions": ["zip"],
+          "maxFileSize": 2097152
+      },
+      { 
+          "value": "rar",
+          "name": { 
+              "en": "RAR (archive format)",
+              "pl": "RAR (kompresja plików)"
+          },
+          "allowedExtensions": ["rar"],
+          "maxFileSize": 2097152
+      },
+      { 
+          "value": "tar",
+          "name": { 
+              "en": "TAR (archive format)",
+              "pl": "TAR (kompresja plików)"
+          },
+          "allowedExtensions": ["tar"],
+          "maxFileSize": 2097152
+      },
+      { 
+          "value": "txt",
+          "name": { 
+              "en": "Text file (.txt)",
+              "pl": "Plik tekstowy (.txt)"
+          },
+          "allowedExtensions": ["txt"],
+          "maxFileSize": 1048576
+      },
+      { 
+          "value": "audio",
+          "name": { 
+              "en": "Audio",
+              "pl": "Audio"
+          },
+          "allowedExtensions": ["mp3", "wav", "ogg"],
+          "maxFileSize": 20971520
+      },
+      { 
+          "value": "video",
+          "name": { 
+              "en": "Video",
+              "pl": "Wideo"
+          },
+          "allowedExtensions": ["mp4", "avi", "mkv"],
+          "maxFileSize": 104857600
+      },
+      { 
+          "value": "img",
+          "name": { 
+              "en": "Image",
+              "pl": "Obraz (zdjęcie, diagram, animacja)"
+          },
+          "allowedExtensions": ["jpg", "jpeg", "png", "gif"],
+          "maxFileSize": 5242880
+      },
+      { 
+          "value": "xml",
+          "name": { 
+              "en": "XML File",
+              "pl": "XML Plik"
+          },
+          "allowedExtensions": ["xml"],
+          "maxFileSize": 2097152
+      },
+      { 
+          "value": "csv",
+          "name": { 
+              "en": "CSV File",
+              "pl": "CSV Plik"
+          },
+          "allowedExtensions": ["csv"],
+          "maxFileSize": 2097152
+      },
+      { 
+          "value": "file",
+          "name": { 
+              "en": "Other format",
+              "pl": "Inny format"
+          },
+          "allowedExtensions": ["*"],
+          "maxFileSize": 5242880
+      }
+  ]
+}

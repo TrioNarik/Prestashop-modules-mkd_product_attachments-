@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>mkd_product_attachments</name>
+    <displayName><![CDATA[MKD &middot; Załączniki, Dodatkowe Pola i Eksport danych produkt&oacute;w]]></displayName>
+    <version><![CDATA[4.6.6]]></version>
+    <description><![CDATA[Menedżer załącznik&oacute;w produkt&oacute;w na stronie produktu (PDP) oraz menedżer eksportu danych produkt&oacute;w z załącznikami na dowolnej stronie CMS]]></description>
+    <author><![CDATA[MKD]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Czy na pewno chcesz odinstalować ten moduł? Wszystkie dane i pliki zostaną usunięte.]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
